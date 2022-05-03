@@ -8,7 +8,7 @@ These are the connectors used by the flow:
 - https://docs.microsoft.com/en-us/connectors/microsoftflowforadmins/
 - https://docs.microsoft.com/en-us/connectors/excelonlinebusiness/
 
-## How to instal
+## How to install
 Follow this steps to import the flow in your environment:
 
 ### Prerequisites
