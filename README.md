@@ -16,18 +16,18 @@ Follow these steps to import the flow in your environment:
 2. A OneDrive For Business drive
 
 ### Set-up
-1. Download the repository in your local drive and unzip it
+1. Download the repository in your local drive and unzip it.
 2. Using the admin account, upload the Book.xlsx file to the root folder of the admin's own OneDrive For Business. This will be the workbook used by the flow to generate the report.
 3. Using the admin account, log into your preferred Power Platform environment at https://flow.microsoft.com/
-4. Within the "My flows" section, click Import to import the GetAllFlowUsersinTenant_20220503165342.zip file containing the flow
-5. Create a connection using the admin account for each one of the four connection references required by the import
+4. Within the "My flows" section, click Import to import the GetAllFlowUsersinTenant_20220503165342.zip file containing the flow.
+5. Create a connection using the admin account for each one of the four connection references required by the import.
 
    The following connections must be created:
    - Power Platform for Admins
    - Power Automate Management
    - Excel Online (Business)
    - Power Automate for Admins
-7. Import
+7. Import.
 8. Back to the "My flows" section, turn on the flow and run it. Depending on the number of flows and users in your tenant, it may take a while to complete.
 
 # Output
