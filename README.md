@@ -8,7 +8,7 @@ These are the connectors used by the flow:
 - https://docs.microsoft.com/en-us/connectors/microsoftflowforadmins/
 - https://docs.microsoft.com/en-us/connectors/excelonlinebusiness/
 
-Every flow is exported with its list of owners, co-owners, read-only users and delegated users thought SharePoint lists.
+Every flow is exported with its list of owners, co-owners, read-only users and delegated users through SharePoint lists.
 
 ## How to install
 Follow these steps to import the flow in your environment:
