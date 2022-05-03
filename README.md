@@ -1,5 +1,5 @@
 # PowerAutomateUsers
-A standalone Power Automate flow to extract all Flow users from a Power Platform tenant, using the standard admin connectors.
+A standalone Power Automate flow to extract all Power Automate users from a Power Platform tenant, using the standard admin connectors.
 It extract all flows within a Power Platform environment and report the main attributes in an Excel Online workbook.
 
 These are the connectors used by the flow:
