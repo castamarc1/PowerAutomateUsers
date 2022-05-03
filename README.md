@@ -40,12 +40,12 @@ Attribute | Cardinality | Description | Notes
 **Flow ID** | 1 per flow | GUID of the Power Automate flow | na
 **Flow Name** | 1 per flow | Display Name of the Power Automate flow | na
 **Flow Type** | 1 per flow | \[Instant, Automated, Scheduled\] | na
-**Flow Tier** | 1 per flow | \[Standard, Premium\] | NB: AI Builder actions are marked as Premium, even though the Power Automate portal does not highlight it.
-**Is in Solution** | 1 per flow | \[Yes, No\] - Whether or not the flow is part of a solution (i.e. stored as a Dataverse record) | NB: Users of a solution-aware flow cannot be exported with the standard administrative connector. All remaining fields are marked as "Not visibile".
-**Share type** | 1 or many per flow | \[Owner, CanEdit, CanView, Not visible\] | Owner is the creator of the flow. CanEdit are the co-owners. CanView are the read-only users. Not visibile if the flow is solution-aware.
-**Permission Type** | 1 or many per flow | \[Principal, AuthorizationDelegate, Not visibile\] | Principal if the flow has been shared with a user. AuthorizationDelegate if the flow has been shared through SharePoint lists. Not visibile if the flow is solution-aware.
-**Principal ID** | 1 or many per flow | GUID of the Principal to whom the flow has been shared. | Starts with "DELEGATED-" if Permission Type = AuthorizationDelegate. Not visibile if the flow is solution-aware.
+**Flow Tier** | 1 per flow | \[Standard, Premium\] | NB: AI Builder actions are marked as Premium, even though the Power Automate portal does not highlight it
+**Is in Solution** | 1 per flow | \[Yes, No\] - Whether or not the flow is part of a solution (i.e. stored as a Dataverse record) | NB: Users of a solution-aware flow cannot be exported with the standard administrative connector. All remaining fields are marked as "Not visibile"
+**Share type** | 1 or many per flow | \[Owner, CanEdit, CanView, Not visible\] | Owner is the creator of the flow. CanEdit are the co-owners. CanView are the read-only users. Not visibile if the flow is solution-aware
+**Permission Type** | 1 or many per flow | \[Principal, AuthorizationDelegate, Not visibile\] | Principal if the flow has been shared with a user. AuthorizationDelegate if the flow has been shared through SharePoint lists. Not visibile if the flow is solution-aware
+**Principal ID** | 1 or many per flow | GUID of the Principal to whom the flow has been shared | Starts with "DELEGATED-" if Permission Type = AuthorizationDelegate. Not visibile if the flow is solution-aware
 **Delegation Service** | 1 or many per flow | \[SharePoint, "", Not visible\] | na
-**Delegated Collection** | 1 or many per flow | URL of the SharePoint site that contain the list to which the flow has been shared. | na
+**Delegated Collection** | 1 or many per flow | URL of the SharePoint site that contain the list to which the flow has been shared | na
 **Delegated Resource ID** | 1 or many per flow | GUID of the SharePoint list to whom the flow has been shared | na
 
