@@ -24,7 +24,7 @@ Follow these steps to import the flow in your environment:
 4. Within the "My flows" section, click Import to import the GetAllFlowUsersinTenant_20220503165342.zip file containing the flow.
 5. Create a connection using the admin account for each one of the four connection references required by the import.
 
-   The following connections must be created:
+   The following connections must be created manually:
    - Power Platform for Admins
    - Power Automate Management
    - Excel Online (Business)
@@ -50,4 +50,8 @@ Attribute | Cardinality | Description | Notes
 **Delegation Service** | 1 or many per flow | \[SharePoint, "", Not visible\] | na
 **Delegated Collection** | 1 or many per flow | URL of the SharePoint site that contain the list to which the flow has been shared | na
 **Delegated Resource ID** | 1 or many per flow | GUID of the SharePoint list to whom the flow has been shared | na
+
+# What's next
+You can easily extend the flow with missing pieces of information. For example, you cound include the Office 365 Users connector to retrieve the identity of each Power Automate user starting from the Principal ID GUID.
+
 
