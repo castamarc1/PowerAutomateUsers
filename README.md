@@ -17,7 +17,7 @@ Follow this steps to import the flow in your environment:
 
 ### Set-up
 1. Download the repository in your local drive and unzip it
-2. Using the admin account, upload the Book.xlsx file to the root folder of your OneDrive For Business. This will be the workbook used by the flow to generate the report.
+2. Using the admin account, upload the Book.xlsx file to the root folder of its own OneDrive For Business. This will be the workbook used by the flow to generate the report.
 3. Using the admin account, log into your preferred Power Platform environment at https://flow.microsoft.com/
 4. Within the "My flows" section, click Import to import the .zip file containing the flow
 5. Create a connection using the admin account for each of the four connection references required by the import
