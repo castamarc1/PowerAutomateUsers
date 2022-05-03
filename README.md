@@ -45,7 +45,7 @@ Attribute | Cardinality | Description | Notes
 **Share type** | 1 or many per flow | \[Owner, CanEdit, CanView, Not visible\] | Owner is the creator of the flow. CanEdit are the co-owners. CanView are the read-only users. Not visibile if the flow is solution-aware.
 **Permission Type** | 1 or many per flow | \[Principal, AuthorizationDelegate, Not visibile\] | Principal if the flow has been shared with a user. AuthorizationDelegate if the flow has been shared through SharePoint lists. Not visibile if the flow is solution-aware.
 **Principal ID** | 1 or many per flow | GUID of the Principal to whom the flow has been shared. | Starts with "DELEGATED-" if Permission Type = AuthorizationDelegate. Not visibile if the flow is solution-aware.
-**Delegation Service** | 1 or many per flow | \[SharePoint, Not visible\] | na
+**Delegation Service** | 1 or many per flow | \[SharePoint, "", Not visible\] | na
 **Delegated Collection** | 1 or many per flow | URL of the SharePoint site that contain the list to which the flow has been shared. | na
 **Delegated Resource ID** | 1 or many per flow | GUID of the SharePoint list to whom the flow has been shared | na
 
