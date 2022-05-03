@@ -9,7 +9,7 @@ These are the connectors used by the flow:
 - https://docs.microsoft.com/en-us/connectors/excelonlinebusiness/
 
 ## How to install
-Follow this steps to import the flow in your environment:
+Follow these steps to import the flow in your environment:
 
 ### Prerequisites
 1. An AAD account with Global Admin or Power Platform Admin role
