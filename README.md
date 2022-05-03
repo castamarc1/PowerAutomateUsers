@@ -54,4 +54,5 @@ Attribute | Cardinality | Description | Notes
 # What's next
 You can easily extend the flow with missing pieces of information. For example, you cound include the Office 365 Users connector to retrieve the identity of each Power Automate user starting from the Principal ID GUID.
 
+https://docs.microsoft.com/en-us/connectors/office365users/
 
